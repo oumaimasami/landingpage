@@ -7,7 +7,12 @@
 .articles {
   width: 95%;
 }
-.form-check {
-  border: 1px solid grey;
+.check {
+  border: 1px solid rgb(221, 221, 221);
   border-radius: 5px;
+  width: 130px !important;
+  justify-content: flex-start !important;
+}
+.search {
+  width: 1180px !important;
 }
