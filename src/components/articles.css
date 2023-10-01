@@ -1,0 +1,13 @@
+.btn-info {
+  width: 100px !important;
+  color: white !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+.articles {
+  width: 95%;
+}
+.form-check {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
