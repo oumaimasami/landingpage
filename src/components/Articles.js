@@ -1,10 +1,11 @@
 import React from "react";
 import "./articles.css";
+import Article from "./Article";
 
 export default function Articles() {
   return (
-    <div className="row articles justify-content-center pt-4 mt-4 ">
-      <div className="input-group input-group-lg search">
+    <div className="row articles justify-content-center mx-3 pt-4 mt-4 ">
+      <div className="input-group input-group-lg">
         <input
           type="text"
           className="form-control"
@@ -15,9 +16,9 @@ export default function Articles() {
           Search
         </button>
       </div>
-      <div className="col-10 row py-4">
-        <div className=" py-2 mx-2 check">
-          <label className="form-check-label px-2" for="inlineCheckbox1">
+      <div className="row py-4">
+        <div className=" py-2 check">
+          <label className="form-check-label px-2 " for="inlineCheckbox1">
             Unisex
           </label>
           <input
@@ -28,7 +29,7 @@ export default function Articles() {
           />
         </div>
 
-        <div className="py-2 mx-2 check">
+        <div className="py-2 check">
           <label className="form-check-label px-2" for="inlineCheckbox2">
             For Her
           </label>
@@ -39,7 +40,7 @@ export default function Articles() {
             value="option2"
           />
         </div>
-        <div className="py-2 mx-2 check">
+        <div className="py-2 check">
           <label className="form-check-label px-2" for="inlineCheckbox3">
             For Him
           </label>
@@ -50,6 +51,14 @@ export default function Articles() {
             value="option3"
           />
         </div>
+      </div>
+      <div className="card-deck row ">
+        <Article />
+        <Article />
+        <Article />
+        <Article />
+        <Article />
+        <Article />
       </div>
     </div>
   );
