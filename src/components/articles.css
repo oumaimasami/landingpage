@@ -5,7 +5,11 @@
   font-weight: bold;
 }
 .articles {
-  width: 70%;
+  width: 67%;
+  height: 650px;
+  left: 0;
+  position: fixed;
+  overflow-y: scroll;
 }
 .check {
   border: 1px solid rgb(221, 221, 221);
