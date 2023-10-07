@@ -5,12 +5,12 @@
   font-weight: bold;
 }
 .articles {
-  width: 95%;
+  width: 70%;
 }
 .check {
   border: 1px solid rgb(221, 221, 221);
   border-radius: 5px;
   width: 130px !important;
   justify-content: flex-start !important;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }

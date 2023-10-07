@@ -17,7 +17,7 @@ export default function Article() {
     }
   }
   return (
-    <div className="card col-3 pr-3 mx-5 mt-3">
+    <div className="card col-3 pr-3 mx-4 mt-3">
       <img className="productLogo py-3" src={logo} alt="logo" />
       <img className="card-img-top" src={photo} alt="parfum" />
       <div className="card-body">
